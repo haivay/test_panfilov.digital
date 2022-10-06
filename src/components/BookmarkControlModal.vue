@@ -154,7 +154,7 @@ function saveBookmark() {
     }
 
     .modal__content {
-      width: 80%;
+      width: 90%;
       height: 60%;
       margin: 0 auto;
 
@@ -171,6 +171,7 @@ function saveBookmark() {
             font-size: 14px;
             color: $text-color;
             user-select: none;
+            margin: 0 0 6px 0;
           }
 
           .modal__input {
@@ -179,6 +180,7 @@ function saveBookmark() {
             border: none;
             border-bottom: 1px solid $input-border-color;
             color: $text-color;
+            font-size: 16px;
 
             &:focus {
               outline: none;
