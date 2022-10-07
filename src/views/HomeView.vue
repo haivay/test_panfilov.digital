@@ -4,7 +4,8 @@
       <div class="header">
         <header class="header__container">
           <div class="header__title">
-            Закладки
+            <font-awesome-icon icon="fa-solid fa-book-bookmark" />
+            <span class="title">Закладки</span>
           </div>
           <button @click="toggleControlModal()" class="btn">
             Новая закладка
@@ -88,6 +89,10 @@ function toggleControlModal() {
       .header__title {
         font-size: 18px;
         font-weight: 600;
+
+        .title {
+          margin: 0 0 0 10px;
+        }
       }
     }
   }
